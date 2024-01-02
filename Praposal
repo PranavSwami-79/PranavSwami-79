@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Question</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="question-container">
+    <h1>I love you. Do you also love me?</h1>
+    <div class="options">
+      <button onclick="showResponse('yes')">Yes</button>
+      <button onclick="showResponse('no')">No</button>
+    </div>
+    <div id="response-container" class="hidden">
+      <p id="response-text"></p>
+      <img src="" id="response-image" alt="Response Image">
+      <audio id="response-audio" controls></audio>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
